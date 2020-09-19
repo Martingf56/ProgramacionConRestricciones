@@ -1,0 +1,9 @@
+T = 20; %Numero de trabajadores
+N = 4; %Numero de trabajadores por turno
+D = 5; %Numero de dias a trabajar
+MaxDT = 5; %Maximo dias consecutivos
+MaxDL = 2;%Maximo dias libres consecutivos
+MinDT = 1; %Minimo dias a trabajar
+numIn = 0; %Numero de pares de incompatibles
+rel = [];% pares de incompatibles
+supervisores = {1,2,3}; %Los supervisores
